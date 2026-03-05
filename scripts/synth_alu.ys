@@ -1,0 +1,18 @@
+read_verilog -sv src/cla_block.sv
+read_verilog -sv src/cla_adder.sv
+read_verilog -sv src/logic_unit.sv
+read_verilog -sv src/shift_unit.sv
+read_verilog -sv src/compare_unit.sv
+read_verilog -sv src/flag_unit.sv
+read_verilog -sv src/alu.sv
+
+hierarchy -top alu
+
+proc
+opt
+techmap
+opt
+
+stat
+
+show alu
