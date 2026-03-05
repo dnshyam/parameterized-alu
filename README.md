@@ -62,37 +62,6 @@ Major blocks:
 • Compare Uni 
 • Flag Unit
 
----
-
-# Project Structure
-
-
-parameterized-alu
-│
-├── src
-│ ├── alu.sv
-│ ├── cla_adder.sv
-│ ├── cla_block.sv
-│ ├── logic_unit.sv
-│ ├── shift_unit.sv
-│ ├── compare_unit.sv
-│ └── flag_unit.sv
-│
-├── tb
-│ ├── tb_alu.sv
-│ ├── tb_cla_adder.sv
-│ ├── tb_logic_unit.sv
-│ ├── tb_shift_unit.sv
-│ ├── tb_compare_unit.sv
-│ └── tb_flag_unit.sv
-│
-├── scripts
-│ └── synth_alu.ys
-│
-├── docs
-│ ├── alu_architecture.pdf
-│ └── alu_architecture-1.png
-
 
 ---
 
